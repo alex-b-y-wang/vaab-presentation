@@ -1,31 +1,46 @@
 VAAB — Final HTML Presentation / English speaking scripts
-Updated: 14 October 2026
-11 slides. Six speakers: about 70 seconds of slide narration each.
-Additional recorded demo: Bingyan, 107 seconds (1:47), English voice and burned-in subtitles.
-Estimated total: 8:47 before extra pauses/transitions. Measure the full recording; final limit is 10 minutes.
-The demo is already narrated. Do not read its transcript over the video.
-Animations are controlled manually; the 4-second animation preview is not a speaking timer.
+Revision: 14 October 2026 — 9:30 rehearsal target
 
-播放：第 6 页点击 Play demo；空格可播放/暂停；离开该页会暂停视频。R 可从头重播本页。
-讲稿：N 打开；Demo 前后衔接句已分别写入 Yan 和 Zhijia 的讲稿。
+TIMING PLAN (targets, not measured narration)
+Slide narration: 7:33 (453 seconds).
+Existing recorded demo: 1:47 (107 seconds), unchanged.
+Allow about 10 seconds in total for page changes and speaker handovers.
+Overall target: about 9:30. Final assignment limit: 10:00.
+Read clearly at roughly 103–118 words per minute, including natural sentence pauses.
+Do one full timed rehearsal. Do not rush to match individual slide targets.
 
+SPEAKER TOTALS — slide narration only
+Bingyan: 1:28 (opening 0:25 + product 0:35 + conclusion 0:28).
+Haoyang: 1:19 (problem 0:34 + evaluation 0:45).
+Yan: 1:09 (goals 0:29 + user involvement 0:40).
+Zhijia: 1:14 (agent workflow).
+Zhen: 1:10 (backend).
+Youxi: 1:13 (technical tests).
+Bingyan’s additional demo voice is already recorded in the 1:47 video.
+
+读稿提示：每段之间自然停顿，重读关键动作和数字；不要逐字念提示或来源。
+VAAB 的全称在开场解释一次；SSE 按字母 S / S / E 读；API 按字母 A / P / I 读。
+第 6 页只播放现有视频，不要再次朗读 transcript。视频内容和字幕均未改变。
+网页按 N 打开讲稿；右箭头推进。动画预览每 4 秒推进，不代表口播计时。
 
 Slide 01 — VAAB
-Speaker: Bingyan | Target: 10 seconds
+Speaker: Bingyan | Target: 25 seconds | 45 words
 
-Hello, we are Group Two, The No-Coders. VAAB helps allied health staff build apps without writing code.
+Hello everyone. We are Group Two, The No-Coders. Our project is VAAB, the Visual AI Application Builder. It helps allied health staff turn their needs into simple web apps. Today, we’ll explain the problem, show our prototype, and share what we learned from testing it.
 
 提示（不朗读）：
-1. 介绍小组与项目用途
+1. 问候、小组与 VAAB 全称；用途；预告问题、原型和测试结果
 
 Source (not spoken): Group02.pdf §§1.2, 1.4, 7.1
 
 -----------------------------------------------------------------
 
 Slide 02 — Why did we build VAAB?
-Speaker: Haoyang | Target: 32 seconds
+Speaker: Haoyang | Target: 34 seconds | 63 words
 
-Imagine a therapist who needs an app for care plans. They know what to record, such as patient goals and review notes. But turning those needs into software still takes technical help. VAAB lets them explain their needs in plain language. It asks follow-up questions and checks the plan before building the app.
+Imagine a therapist who needs an app for care plans. They know what to record, such as patient goals and review notes. But turning those needs into software still takes technical help.
+
+Our aim was to make that step easier. With VAAB, users describe their needs in plain language, answer questions when needed, and agree on a plan before the app is built.
 
 提示（不朗读）：
 1. 举例：治疗师需要 care-planning app
@@ -37,9 +52,13 @@ Source (not spoken): Group02.pdf §§1.1–1.3, 6.4; illustrative scenario, not 
 -----------------------------------------------------------------
 
 Slide 03 — What did we aim to achieve?
-Speaker: Yan | Target: 29 seconds
+Speaker: Yan | Target: 29 seconds | 51 words
 
-We used three questions to judge the project. First, can users explain their needs and confirm a clear plan? Second, can VAAB build an app that follows that plan and allows changes? Third, do users find the process clear and feel in control? We used system tests and user feedback to answer these questions.
+We used three questions to guide our work.
+
+First, can users explain their needs and confirm a clear plan? Second, can VAAB build an app that follows the plan and allows changes? Third, do users understand the process and feel in control?
+
+We checked these through system tests and user feedback.
 
 提示（不朗读）：
 1. RQ1：需求与计划
@@ -51,9 +70,13 @@ Source (not spoken): Group02.pdf §1.3.2
 -----------------------------------------------------------------
 
 Slide 04 — What did we build?
-Speaker: Bingyan | Target: 34 seconds
+Speaker: Bingyan | Target: 35 seconds | 64 words
 
-Product A is the VAAB Builder. Users describe their needs, check the plan, and review the result here. Product B is the app it creates, shown inside the preview. This example is a patient intake form. Our user study used a care-planning task. Users can ask for changes in the chat, without reading the code.
+We built two connected parts. Product A is the VAAB Builder, the workspace shown here. Users describe their needs, check the plan, and review the result.
+
+Product B is the app it creates, shown inside the preview. This example is a patient intake form; our user study used a care-planning task.
+
+Users can then ask for changes in the chat, without reading the code.
 
 提示（不朗读）：
 1. Product A：工作区、需求、计划
@@ -65,9 +88,17 @@ Source (not spoken): Group02.pdf §§7.1, 8.2, 9.6; Appendix F. Screenshot uses 
 -----------------------------------------------------------------
 
 Slide 05 — How do users stay involved?
-Speaker: Yan | Target: 41 seconds
+Speaker: Yan | Target: 40 seconds | 72 words
 
-Users can step in at three points. Before the first build, they check each task and approve the full plan. During the build, they can see progress and stop the process. After the build, they check the app and ask for changes, such as a new form title. VAAB targets the files that need to change. We also tested how clear these steps were to users. Let’s see this flow in a care-planning example.
+Users can step in at three points.
+
+Before the build, they check each task and approve the full plan. This gives them a chance to correct the system’s understanding.
+
+During the build, they can follow progress and stop the process.
+
+After the build, they review the preview and ask for changes, such as a new title. VAAB targets the files that need to change.
+
+Let’s see this flow in a care-planning example.
 
 提示（不朗读）：
 1. 生成前：检查任务并批准计划
@@ -92,75 +123,109 @@ Source (not spoken): Recorded VAAB workflow; Group02.pdf §§7.5, 10.9, 18.2. Re
 -----------------------------------------------------------------
 
 Slide 07 — How the agent works
-Speaker: Zhijia | Target: 70 seconds
+Speaker: Zhijia | Target: 74 seconds | 128 words
 
-You’ve seen the user’s steps. Now, let’s look at the AI process behind them. We use LangGraph to manage six roles. For a new app, the system first asks questions, then makes a plan. The user checks the tasks and approves the plan before code generation starts. The system builds one file at a time, then checks the code and the task result. Early builds had code errors, so we added these checks. Failed tasks can retry, but the loops have limits. For an existing app, an editor checks the new request and plans the changes. This avoids a full rebuild when it is not needed. If an edit still fails after retries, the system restores the earlier file. It ends with a short summary.
+You’ve seen the user’s steps. Now, let’s look at the AI process behind them.
+
+We use LangGraph to manage six roles. The Clarifier asks questions when more detail is needed. The Planner turns the request into tasks. The user checks the plan before the build starts.
+
+The Executor builds one file at a time. Reflection checks the code and whether the task is complete. Early builds had code errors, so we added these checks. Failed tasks can retry, with limits to stop endless loops.
+
+For an existing app, the Editor plans changes to the files that need them. This supports small edits, like the title change in our demo. If an edit still fails after retries, the earlier file is restored.
+
+Finally, the system gives a short summary.
 
 提示（不朗读）：
-1. Clarifier 与 Planner
+1. 从 demo 转入 AI 流程；Clarifier 与 Planner
 2. 用户确认后才开始生成
-3. Executor 与 Reflection
-4. 检查失败：有限重试或重新规划
-5. 现有应用的 Editor 与最终总结
+3. Executor 与 Reflection：为什么需要检查
+4. 有限重试，避免循环不止
+5. Editor 与 demo 标题修改对应；失败恢复；最终总结
 
 Source (not spoken): Group02.pdf §§11.1, 11.5; Appendix E
 
 -----------------------------------------------------------------
 
 Slide 08 — How the backend supports users
-Speaker: Zhen | Target: 70 seconds
+Speaker: Zhen | Target: 70 seconds | 120 words
 
-The backend links the AI process to the user screen. First, the Express API checks the login token and makes sure the app belongs to that user. Next, it sends progress updates while the app is being built. We use server-sent events, or S S E, for this. The database saves the chat, completed files, and the file used to start the app. In our tests, a page refresh restored the saved app in the preview. Work that was stopped did not replace the last completed version. This supports recovery after a page refresh. A server restart is a different case. The current system cannot yet restore an active build after a restart.
+The backend connects this AI process to the user’s screen and saved work.
+
+First, the Express API checks the login token and makes sure the app belongs to that user.
+
+During the build, it sends progress updates to the screen. We use server-sent events, or S S E, so users can follow the work as it happens.
+
+The database saves the chat, completed files, and the file used to start the app. In our tests, refreshing the page brought the saved app back into the preview. Stopping a build also kept the last completed version.
+
+This helps users return to saved work. One limit remains: after a server restart, the system cannot yet restore a build that was still running.
 
 提示（不朗读）：
-1. 验证登录与项目归属
-2. SSE 推送进度
-3. 保存结果与页面刷新恢复
-4. 边界：服务器重启后不能恢复活跃任务
+1. 连接 AI、用户界面和保存的结果；登录与项目归属
+2. SSE 的作用：让用户跟上实时进度
+3. 保存完成结果；刷新恢复；停止保留上一完成版本
+4. 明确边界：服务器重启不能恢复仍在运行的任务
 
 Source (not spoken): Group02.pdf §§8.4, 9.3, 11.3, 11.6; Appendix D
 
 -----------------------------------------------------------------
 
 Slide 09 — What did we test?
-Speaker: Youxi | Target: 70 seconds
+Speaker: Youxi | Target: 73 seconds | 129 words
 
-We checked the full path from an agreed plan to a saved app. A real model API run produced four files, which the backend saved. We also checked the result in the browser. One earlier problem was a blank preview, or losing it after a refresh. We addressed this by loading the saved files and the app's starting file. Browser checks showed that the form returned after a refresh. We also checked that the simulated release and feedback records were saved. Some repeat tests used fixed mock responses. These checks support the tested local workflow. They do not prove that every request will work, or that the app is ready for real clinical use.
+We tested whether these parts worked together, from an agreed plan to a saved app.
+
+A run with a real model API produced four files. We checked the saved files and viewed the result in the browser.
+
+One earlier problem was a blank preview, or losing it after a refresh. We fixed how the saved files and starting file were loaded. Browser checks then showed that the form returned after a refresh.
+
+We also checked that simulated release and feedback records were saved. Some repeat tests used fixed mock responses. This let us repeat selected checks without calling the real model each time.
+
+The results support the workflow we tested locally. They do not show that every request will work, or that the app is ready for clinical use.
 
 提示（不朗读）：
-1. 真实 API：生成并保存四个文件
-2. 修复空白预览，并验证刷新恢复
-3. 模拟发布与反馈记录
-4. 测试范围：部分使用 mock，尚非临床就绪
+1. 真实 API：四个文件；保存和浏览器检查
+2. 问题—修复—验证：刷新后预览恢复
+3. 模拟发布/反馈记录；解释 mock 为重复测试提供固定输入
+4. 结果支持已测试本地流程，不能推广到所有请求或临床使用
 
 Source (not spoken): Group02.pdf §§10.4, 10.9, 14.4; Appendix F
 
 -----------------------------------------------------------------
 
 Slide 10 — User evaluation
-Speaker: Haoyang | Target: 38 seconds
+Speaker: Haoyang | Target: 45 seconds | 86 words
 
-Five occupational therapy staff took part in the final study. All five did the app-creation task on their own. For the needs discussion, three worked alone and two needed help. Four gave positive ratings for intent match and preview clarity. Three felt in control. Two gave positive ratings for editing and progress. The results show promise, but clearer guidance is still needed. This was a small study.
+We also asked users to try the system. Five occupational therapy staff took part in the final study.
+
+All five completed app creation on their own. In the needs discussion, three worked alone and two needed help.
+
+Four gave positive ratings for matching their needs and for preview clarity. Three rated control positively. Editing and progress each received two positive ratings.
+
+This suggests that understanding the result was easier than managing the process. Clearer guidance is our next priority. With five participants, these are early findings.
 
 提示（不朗读）：
-1. 五位参与者与任务完成情况
-2. 需求匹配与预览清晰度：4/5
-3. 控制感：3/5
-4. 编辑与进度：2/5
-5. 小样本有潜力，但仍需更清晰的引导
+1. 五人最终研究；独立完成与需要帮助的区别
+2. 需求匹配和预览清晰度各4人正面评价
+3. 控制感3人正面评价
+4. 编辑与进度各2人正面评价
+5. 解释结果与改进方向；强调小样本初步发现
 
 Source (not spoken): Group02.pdf §§14.1–14.5; Appendix A. Positive rating = 4 or 5 on a five-point scale.
 
 -----------------------------------------------------------------
 
 Slide 11 — What did we learn?
-Speaker: Bingyan | Target: 26 seconds
+Speaker: Bingyan | Target: 28 seconds | 55 words
 
-VAAB brings a clear plan, app building, and user review into one process. In our final study, users rated the match to their needs more highly than their sense of control. Our next steps are clearer guidance, wider testing, and stronger checks before real clinical use. Thank you.
+VAAB brings a clear plan, app building, and user review into one process. Our prototype showed that this can work in the local workflow we tested.
+
+The study also showed where to improve: user control, editing, and progress. Our next steps are clearer guidance, wider testing, and stronger checks before real clinical use.
+
+Thank you.
 
 提示（不朗读）：
-1. 交付：确认、生成、用户检查连成流程
-2. 发现：需求匹配高于控制感
-3. 下一步与致谢
+1. 交付结果与本地验证范围
+2. 用户控制、编辑和进度是改进重点
+3. 下一步：更清晰指导、更广测试、临床使用前检查；致谢
 
 Source (not spoken): Group02.pdf §§1.4, 14.5, 18.1–18.3

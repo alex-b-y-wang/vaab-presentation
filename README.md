@@ -9,7 +9,7 @@ The 11-slide presentation includes English speaker notes and a 1:47 demo with Bi
 - On slide 6, click **Play demo**. **Space** plays or pauses the demo; **R** resets it. Leaving the slide pauses the video. The native video controls support seeking, volume, and fullscreen.
 - Elsewhere, **Space** advances the presentation. Animation preview uses 4-second steps and stops at the demo; it is not a narration timer.
 - Download `speaking-scripts.txt` from the notes panel. It includes the transitions before and after the demo and the recorded narration transcript. Do not read the demo transcript over the video.
-- Six speakers retain approximately 70 seconds each for slide narration, plus the 107-second recorded demo. The estimated total is 8:47, before additional pauses and transitions. Check the complete recording against the 10-minute limit.
+- The revised scripts target about 9:30: 7:33 of slide narration, the unchanged 1:47 recorded demo, and about 10 seconds for page changes and speaker handovers. Individual slide-narration totals are Bingyan 1:28, Haoyang 1:19, Yan 1:09, Zhijia 1:14, Zhen 1:10, and Youxi 1:13. These are rehearsal budgets at roughly 103–118 words per minute, not measured recordings. Check a full rehearsal against the 10-minute limit.
 - Release in the demo is simulated, not real hosting. The standalone preview shows the generated layout; the demo does not demonstrate patient-record persistence or PDF export. The sample feedback submission is separate from the five-person research study.
 - In-browser text edits remain local; they do not update this shared site.
 
