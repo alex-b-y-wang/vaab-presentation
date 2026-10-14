@@ -1,0 +1,101 @@
+1
+00:00:01,000 --> 00:00:04,210
+Next, let's create a simple form for follow-up care.
+
+2
+00:00:04,540 --> 00:00:05,880
+We describe what we need:
+
+3
+00:00:06,000 --> 00:00:10,530
+a patient ID, goals, review notes, and the next review date.
+
+4
+00:00:13,750 --> 00:00:17,040
+VAAB presents the proposed tasks one at a time.
+
+5
+00:00:17,620 --> 00:00:20,020
+We check each task and confirm it in the chat.
+
+6
+00:00:22,000 --> 00:00:24,620
+At this point, we can also ask for changes.
+
+7
+00:00:27,740 --> 00:00:29,480
+We then review the full plan.
+
+8
+00:00:30,050 --> 00:00:33,530
+The build starts only after we give our final approval.
+
+9
+00:00:36,750 --> 00:00:41,330
+VAAB shows which tasks are complete and which are still running.
+
+10
+00:00:41,950 --> 00:00:44,330
+We have shortened the waiting time in this video.
+
+11
+00:00:46,600 --> 00:00:48,250
+Here is a generated form.
+
+12
+00:00:48,620 --> 00:00:52,270
+We can see the fields we requested
+and review the layout in the preview.
+
+13
+00:00:54,660 --> 00:00:56,530
+Now we ask for a small change.
+
+14
+00:00:57,380 --> 00:00:59,930
+Rename the form to “Follow-up Care Plan”
+
+15
+00:01:00,050 --> 00:01:02,130
+and keep the other fields the same.
+
+16
+00:01:05,230 --> 00:01:07,360
+The new title appears in the preview.
+
+17
+00:01:10,750 --> 00:01:13,580
+Next, we try the simulated release.
+
+18
+00:01:14,350 --> 00:01:16,420
+This does not publish the app online.
+
+19
+00:01:17,250 --> 00:01:20,050
+A short survey lets users rate their experience
+
+20
+00:01:20,080 --> 00:01:22,570
+and share feedback on VAAB.
+
+21
+00:01:23,470 --> 00:01:25,340
+We submit a sample response.
+
+22
+00:01:26,180 --> 00:01:29,440
+This survey is separate from our research study.
+
+23
+00:01:33,730 --> 00:01:36,940
+We can open the generated interface
+in a separate preview tab
+
+24
+00:01:36,970 --> 00:01:38,340
+to review its layout.
+
+25
+00:01:42,820 --> 00:01:45,530
+From a request to a reviewable interface.
